@@ -122,4 +122,31 @@ margin-left: 50px;
 .card2 p{ text-align: center;}
 
 /* Begginning of styling for the fourth section */
-
+.firstthree{ 
+    border: 5px solid darkred;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+}
+.firstthree h3{
+    color: #551312;
+    font-size: 28px;
+}
+.burger1 { 
+    border: solid 2px black;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.burger2{
+    border: solid 2px blue;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.burger1 img{ 
+    padding-top: 30px;
+}
+.burger2 img {
+    padding-top: 30px;
+}
