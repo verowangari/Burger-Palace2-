@@ -4,7 +4,7 @@ font-family:sans-serif ;
 }
 nav{
     display: flex;
-    background:red;
+
     
 }
 .logoimg{
@@ -30,7 +30,7 @@ nav{
 nav ul li a{
     text-decoration: none;
     color: black;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 30px;
     padding-right: 60px;
 }
@@ -45,4 +45,46 @@ nav hr{
     border: none;
     margin-right: 60px;
     position: absolute;
+}
+/* Beggining of styling for the second section*/
+.overallsecond{ 
+    background-image: -webkit-linear-gradient(144deg,#F6B400 50%, white 50%);
+}
+.second{ 
+    display: flex;
+    justify-content: space-around;
+    height: 750px;
+    width: 100%;
+}
+.text { 
+    padding-top: 90px;
+    margin-left: -200px;
+    width: 40%;
+}
+.text h2{
+    font-weight: bolder;    
+    font-size: 50px;
+    margin-left: 80px;
+}
+.text p{ 
+    color: #6c6363;
+    font-size: large;
+    font-weight: 500;
+    margin-left: 80px;
+}
+.text .order{ 
+    color: white;
+     background-color: #f9952D; ;
+     padding: 20px;
+     border: none;
+     border-radius: 40px 40px 0 40px;
+    margin-top: 40px;
+    margin-left: 120px;
+}
+.second .largeburger img {
+    height: 550px;
+    margin-top: 60px;
+    margin-right: 400px;
+}
+.second .largeburger{ 
 }
