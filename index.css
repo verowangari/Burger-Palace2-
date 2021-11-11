@@ -123,7 +123,6 @@ margin-left: 50px;
 
 /* Begginning of styling for the fourth section */
 .firstthree{ 
-    border: 5px solid darkred;
     display: flex;
     justify-content: center;
     height: 600px;
@@ -133,16 +132,22 @@ margin-left: 50px;
     font-size: 28px;
 }
 .burger1 { 
-    border: solid 2px black;
+    box-shadow: 0 2px 4px 2px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 50px;
+    padding: 60px;
+    border-radius: 7%;
 }
 .burger2{
-    border: solid 2px blue;
+    box-shadow: 0 1px 3px 2px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
+    margin-right: 50px;
+    padding: 60px;
+    border-radius: 7%;
 }
 .burger1 img{ 
     padding-top: 30px;
@@ -150,3 +155,19 @@ margin-left: 50px;
 .burger2 img {
     padding-top: 30px;
 }
+.lowerpart button {
+    background-color:#e1ebe6;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 13px;
+    border: none;
+}
+.lowerpart img{
+    padding: 6px;
+}
+.lowerpart{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+/* Beggining of styling for the second three cards*/
