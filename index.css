@@ -88,4 +88,18 @@ nav hr{
 }
 .second .largeburger{ 
 }
-/*The beginning of styling for the three cards*/
+/*The beginning of styling for the third section with three cards*/
+.cards{ 
+     background-color: #f7fdf6;
+     display: flex;
+     justify-content: center;
+     height: 600px;
+    padding: 50px;}
+.card1 img{ height: 70px;}
+.card2 img{height: 70px;
+}
+.cards h3{ 
+    color: #551312;
+}
+.card1{ border: 1px solid #551312;}
+.card2{ border: 1px solid #551312;}
