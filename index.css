@@ -92,8 +92,9 @@ nav hr{
 .cards{ 
      background-color: #f7fdf6;
      display: flex;
-     justify-content: space-evenly;
+     justify-content: center;
      height: 600px;
+     
     }
 .card1 img{ height: 70px;}
 .card2 img{height: 70px;
@@ -103,12 +104,19 @@ nav hr{
     font-size: 26px;
 }
 .card1{ border: 1px solid #551312;
-height: 390px;
+height: 340px;
 padding: 30px;
+margin-top: 90px;
+border-radius: 4%;
+margin-left: 50px;
 }
 .card2{ border: 1px solid #551312;
-height: 500px;
+height: 400px;
 justify-content: center;
-padding: 60px;}
+padding: 60px;
+margin-top: 40px;
+border-radius: 4%;
+margin-left: 50px;
+}
 .card1 p{ text-align: center;}
 .card2 p{ text-align: center;}
