@@ -39,7 +39,7 @@ nav ul li a img{
     padding-right: 120px;
 }
 nav hr{
-    background-color: #F6B400;
+    background-color: #f9952D;
     width: 50px;
     height: 10px;
     border: none;
@@ -145,7 +145,7 @@ margin-left: 50px;
     font-size: 28px;
 }
 .burger1 { 
-    box-shadow: 0 2px 4px 2px;
+    box-shadow: 0 2px 3px 2px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -154,7 +154,7 @@ margin-left: 50px;
     border-radius: 7%;
 }
 .burger2{
-    box-shadow: 0 1px 3px 2px;
+    box-shadow: 0 1px 2px 1px;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -184,3 +184,41 @@ margin-left: 50px;
     justify-content: space-between;
 }
 /* Beggining of styling for the second three cards*/
+/* Beggining of styling for the fifth section*/
+
+.fifth{
+    display: flex;
+     justify-content: space-evenly;
+     background-color: #e1ebe6;
+
+}
+.fifth h1 {
+   font-size: 50px;
+   font-weight: bolder;
+}
+.leftdecker{
+    padding-top: 200px;
+}
+.leftdecker span{
+    color: #F6B400;
+
+}
+.leftdecker p{
+    color: #6c6363;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.fifth button{
+    border-radius: 90px;
+    border: none;
+    background-color:#c4c4c4;
+    padding: 10px;
+    margin: 6px;
+}
+.fifth button:hover{
+    color: #f9952D;
+}
+.fifth .firstbutton{
+    background-color: #f9952D;
+}
