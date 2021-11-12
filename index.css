@@ -222,3 +222,34 @@ margin-left: 50px;
 .fifth .firstbutton{
     background-color: #f9952D;
 }
+/*Styling for the section with the mobile */
+
+.mobiles{
+display: flex;
+justify-content: space-around;
+height: 900px;
+padding: 60px;
+background-color: #f6b531;
+overflow: hidden;
+}
+.leftmobile{ 
+    width: 40%;
+    margin-right: 40px;
+    padding-top: 70px;
+}
+.rightmobile{ 
+    width: 60%;
+    height: 200px;
+}
+.leftmobile h1{ 
+    font-weight: bolder;
+    font-size: 60px;
+    padding-left: 20px;
+    padding-top: 70px;
+}
+.leftimage {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
