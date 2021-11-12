@@ -301,7 +301,12 @@ overflow: hidden;
 }
 .rightside a button{
     padding: 20px 30px 20px 30px;
-    border: 1px solid #6c6363
-
+    border: 1px solid #6c6363  
+}
+footer{
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: 500px;
     
 }
