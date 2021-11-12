@@ -253,3 +253,55 @@ overflow: hidden;
     justify-content: space-between;
     padding-left: 30px;
 }
+/* Styling for the section with input*/
+.seventh{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: #e1ebe6;
+    
+}
+.burger{ 
+    border: 2px solid black;
+    
+}
+.burger p{
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 80px;
+    padding-bottom: 60px;
+}
+
+.leftside li{
+    list-style-type: none;
+    line-height: 1cm;
+    margin-left: 150px;
+}
+.leftside{
+    
+    position: relative;
+    display: flex;
+    width: 50%;
+    
+}
+.rightside{
+
+    width: 50%;
+}
+.leftside ul{
+
+}
+.site{
+    font-size: larger;
+    font-weight: bold;
+}
+
+.burger img{
+    align-items: center;
+}
+.rightside a button{
+    padding: 20px 30px 20px 30px;
+    border: 1px solid #6c6363
+
+    
+}
